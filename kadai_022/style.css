@@ -64,7 +64,7 @@ footer a {
 }
 
 footer a:visited{
-  color: (193, 234, 251);
+  color: rgb(193, 234, 251);
 }
 
 footer a:hover{
@@ -81,6 +81,7 @@ footer a:hover{
   }
   
   #parent {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
 }
